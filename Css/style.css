@@ -54,6 +54,7 @@ body{
 
 .row-wrap{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: .2rem;
 }
@@ -62,21 +63,28 @@ body{
     width: calc(100% / 7 - 1rem);
 }
 
+
 .last-part{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #414C59;
+    padding: 2rem;
+}
+
+.chevron{
+    margin-left: 10px;
+    font-size: 8px;
 }
 
 .flex{
     display: flex;
+    align-items: center;
     padding: .5rem;
 }
 
 
 .side{
-    border: 1px solid red;
     display: flex;
     
 
