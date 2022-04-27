@@ -4,15 +4,11 @@
     box-sizing: border-box;
 }
 
-.container{
-    max-width: 1200px;
 
-}
-
-.content{
+.start-content{
     display: flex;
     justify-content: end;
-    padding: 0.2rem;
+    padding: 2rem;
 }
 
 .border-content{
@@ -20,12 +16,16 @@
     background-color:grey;
     margin: 1px;
     color: white;
+    padding: .2rem;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .section{
-    max-width: 960px;
-    margin: 0 auto;
-
+    margin-bottom: 40px;
 }
 
 .w-100{
@@ -46,14 +46,26 @@
 .row-wrap{
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: .2rem;
 }
 
 .col{
     width: calc(100% / 7 - 1rem);
 }
 
+.section-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.flex-button{
+    display: flex;
+}
+
+.pad-1rem{
+    padding: 1rem;
+}
 
 
 
