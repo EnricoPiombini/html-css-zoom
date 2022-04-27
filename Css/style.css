@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: black;
+    color: blanchedalmond;
+    font-family: 'Poppins', sans-serif;
+}
+    
 
 
 .start-content{
@@ -39,9 +48,9 @@
 .description{
     position: absolute;
     bottom:5px;
-    background-color:grey;
-
+    background-color: rgba(255,255,255,0.2);
 }
+
 
 .row-wrap{
     display: flex;
@@ -53,19 +62,26 @@
     width: calc(100% / 7 - 1rem);
 }
 
-.section-flex{
+.last-part{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #414C59;
 }
 
-.flex-button{
+.flex{
     display: flex;
+    padding: .5rem;
 }
 
-.pad-1rem{
-    padding: 1rem;
+
+.side{
+    border: 1px solid red;
+    display: flex;
+    
+
 }
+
 
 
 
