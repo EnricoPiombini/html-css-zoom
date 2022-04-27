@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+
+}
+
+.content{
+    display: flex;
+    justify-content: end;
+    padding: 0.2rem;
+}
+
+.border-content{
+    border-radius: 5px;
+    background-color:grey;
+    margin: 1px;
+    color: white;
+}
+
+.section{
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+.w-100{
+    width: 100%;
+}
+
+.card-col{
+    position: relative;
+}
+
+.description{
+    position: absolute;
+    bottom:5px;
+    background-color:grey;
+
+}
+
+.row-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.col{
+    width: calc(100% / 7 - 1rem);
+}
+
+
+
+
+
