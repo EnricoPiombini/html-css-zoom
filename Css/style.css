@@ -68,28 +68,42 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #414C59;
+    background-color:rgba(255,255,255,0.2);
     padding: 2rem;
 }
 
+.side-flex{
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.chart-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255,255,255,0.2);
+}
+
+.flex-button{
+    padding: 0.5rem;
+}
+
 .chevron{
-    margin-left: 10px;
     font-size: 8px;
 }
 
-.flex{
-    display: flex;
-    align-items: center;
-    padding: .5rem;
+.green-share{
+    color: green;
 }
 
-
-.side{
-    display: flex;
-    
-
+.side-transparent{
+    background-color: rgba(255,255,255,0.2);
+    color: red;
 }
 
-
-
-
+.pad-1rem{
+    padding: 1rem;
+}
